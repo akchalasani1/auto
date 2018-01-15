@@ -1,0 +1,24 @@
+####### User credentials #############
+admin_login:
+    user_name: tomek
+    password: password
+    
+peers_login:
+    user_name: viet
+    password: password
+    
+reportees_login:
+    user_name1: kumar
+    password1: password
+    
+    user_name2: xing
+    password2: password
+
+
+##########Sign_UP##################
+
+sign_up:
+      user_name: test_user
+      pwd: Test@123
+      cnfm_pwd: Test@123
+      

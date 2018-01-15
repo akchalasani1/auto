@@ -1,0 +1,9 @@
+
+####### Application Url and html report formatter ##############
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#default: --format pretty URL=qa BROWSER=firefox --format rerun --out log/rerun.txt features -x -r support -r features/step_definitions --format html --out log/cucumber.html --format pretty
+#rerun: log/failed.txt URL=qa BROWSER=firefox --format pretty features -x -r support -r features/step_definitions --format html --out log/rerun.html --format pretty
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+default: --format pretty URL=prod BROWSER=chrome features -x -r support -r features/step_definitions --format html --out log/cucumber.html --format pretty
